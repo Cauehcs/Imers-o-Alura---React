@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import './index.css';
-import Home from './pages/home/App';
-import CadastroVideo from './pages/cadastro/vídeo'
-import CadastroCategoria from './pages/cadastro/categoria'
+import Home from './pages/home/Home';
+import CadastroVideo from './pages/cadastro/vídeo/Video'
+import CadastroCategoria from './pages/cadastro/categoria/Categoria'
 
 ReactDOM.render(
   <BrowserRouter>
